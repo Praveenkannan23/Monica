@@ -1,0 +1,235 @@
+@import url('https://fonds.googleapis.com/css2? family=poppins:wgth@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    
+    background:#081b29;
+
+}
+.header
+{
+    top: 0;
+    left: 0;
+    width: 110%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo
+{
+    position:relative;
+    font-size: 25px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+.logo::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
+}
+.navbar a
+{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active
+{
+    color: #00abf0;
+    
+}
+.header.btn-box
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 50px;
+
+}
+.header.btn-box::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;   
+    background:transparent;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.9s;
+    z-index: 2;
+}
+.btn-box a
+{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #eba834;
+    border: 2px solid #eba834;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #081b29;
+    text-decoration: none;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.btn-box a:hover
+{
+    color: #00abf0;
+}
+.intro
+{
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 200px;
+    
+}
+.intro-content
+{
+    max-width: 800px;
+}
+.intro h4
+{
+    position:relative;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ededed;
+}
+.s-intro_content-title
+{
+    position: relative;
+    font-size: 75px;
+    font-weight: 1200;
+    color: #ededed;
+}
+.intro-image
+{
+    width:150px;
+    padding-left: 300px;
+    padding-top: 5px;
+    display: flex;
+    border-radius: 20px;
+}
+.About
+{
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-left: 100px; 
+    flex-direction: row;
+    
+}
+.About h4
+{
+    position:relative;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ededed;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+.About-content
+{
+    position: relative;
+    font-size: 65px;
+    font-weight: 1200;
+    color: #ededed;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+.About-para
+{
+    position: relative;
+    padding-left: 300px;
+    font-size: 25px;
+    width: 1200px;
+    height: 500px;
+    color: #ededed;
+}
+.btn-box2
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 50px;
+    padding-left: 50px;
+    
+}
+.btn-box2::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;   
+    background:transparent;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.9s;
+    z-index: 2;
+}
+.btn-box2 a
+{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #eba834;
+    border: 2px solid #eba834;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 00;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.btn-box2 a:hover
+{
+    color: #00abf0;
+}
+
+
+
+
+
